@@ -22,7 +22,7 @@ public class Seller {
 	private String phone;
 	
 	@OneToMany(mappedBy = "seller")
-	private List<Sale> sales = new ArrayList<>();
+	private List<Sale> sales = new ArrayList<>(); //vendas
 	
 	public Seller() {
 	}
